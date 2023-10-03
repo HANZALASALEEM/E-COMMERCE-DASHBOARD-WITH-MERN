@@ -1,0 +1,51 @@
+/* .navbar {
+	padding: 5px;
+	background-color: rgb(255, 255, 255);
+
+}
+.navbar ul li {
+	display: inline-block;
+	padding: 5px;
+	text-decoration: none;
+} */
+.navbar {
+	padding: 5px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 0px 10px rgba(202, 92, 92, 0.5); /* Add a black shadow */
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.navbar ul {
+	list-style: none; /* Remove bullet points */
+	padding: 0;
+}
+
+.navbar ul li {
+	display: inline-block;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.navbar ul li a {
+	text-decoration: none;
+	color: rgb(202, 92, 92);
+	display: flex;
+	width: 120px; /* Set the width */
+	height: 30px; /* Set the height */
+	justify-content: center; /* Center the text horizontally */
+	align-items: center; /* Center the text vertically */
+	transition: color 4s, background-color 0.4s, width 2s; /* Smooth transition for color and background */
+}
+
+.navbar ul li a:hover {
+	color: white;
+	background-color: darkbrown; /* Change background color on hover */
+	width: 140px; /* Set the width */
+	height: 30px; /* Set the height */
+	background-color: rgb(202, 92, 92);
+	border-radius: 10px;
+}
