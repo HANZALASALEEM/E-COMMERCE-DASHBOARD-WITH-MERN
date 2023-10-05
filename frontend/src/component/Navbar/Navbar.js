@@ -20,6 +20,9 @@ export default function Navbar() {
 				<li>
 					<Link to="/logout">Logout</Link>
 				</li>
+				<li>
+					<Link to="/signUp">Sign Up</Link>
+				</li>
 			</ul>
 		</div>
 	);
